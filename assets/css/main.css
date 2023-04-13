@@ -387,7 +387,7 @@ h2 .featured.bottom:before {
 }
 
 .odd h2 {
-    color: var(--white-color);
+    color: var(--dark-blue-color);
 }
 
 h3 {
@@ -1140,7 +1140,7 @@ aside {
 
 .testimonials .card {
     padding: 35px 25px;
-    background-color: var(--white-color);
+    background-color: var(--card-bg-color);
 }
 
 .testimonials .card:not(.no-hover):hover {
@@ -2867,7 +2867,7 @@ header .navbar-expand .navbar-brand .featured .first {
 }
 
 .odd:not(.custom) .card:not(.no-hover) {
-    background-color: rgba(255, 255, 255, 0.035);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .card p {
