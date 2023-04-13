@@ -44,7 +44,7 @@
     --nav-holder-bg-color: #a8c5e9;
     --nav-brand-height: 35px;
     --nav-item-color: #f9f9f9;
-    --hero-bg-color: #111117;
+    --hero-bg-color: #a8c5e9;
     --footer-brand-height: 80px;
 
     --primary-color: #ce4a49;
@@ -76,6 +76,7 @@
     --card-bg-color: #ffffff;
 
     --footer-bg-color: #304968;
+    --footer-bg-image: url('../../assets/images/adorable-parents-with-child-home.png');
 }
 
 /* #endregion Root */
