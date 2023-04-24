@@ -57,7 +57,7 @@
 
     --primary-t-color: #21333e;
     --secondary-t-color: #f9f9f9; 
-    --primary-p-color: #606d75;
+    --primary-p-color: #4b6485;
     --secondary-p-color: #fff;
     --primary-b-color: #f9f9f9;
     --primary-l-color: rgba(0, 0, 0, .25);
@@ -78,6 +78,7 @@
 
     --footer-bg-color: #304968;
     --footer-bg-image: url('../../assets/images/adorable-parents-with-child-home.png');
+    --hero-bg-image: url('../../assets/images/bg-parallax_1.png');
 }
 
 /* #endregion Root */

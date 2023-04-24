@@ -201,7 +201,7 @@
                 <div id="particles-1" class="full-image" data-mask="50"> </div>
 
                 <!-- Media -->
-                <div class="parallax-x-bg" style="background-image:url(assets/images/bg-parallax_1.png)"
+                <div class="parallax-x-bg hero-bg-image"
                     data-swiper-parallax="-50%"></div>
 
                 <div class="swiper-wrapper">
@@ -412,7 +412,14 @@
                         </div> -->
                     </div>
                 </div>
-                <div class="swiper-container mid-slider items" data-perview="4">
+                <div>
+                    <div id="curator-feed-default-feed-layout" data-aos="fade-up">
+                        <a href="https://curator.io" target="_blank" class="crt-logo crt-tag">
+                            Powered by Curator.io
+                        </a>
+                    </div>
+
+                <!-- <div class="swiper-container mid-slider items" data-perview="4">
                     <div class="swiper-wrapper">
                         <div data-aos="fade-left" class="swiper-slide slide-center item">
                             <div class="row card p-0 text-center">
@@ -565,7 +572,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -1118,6 +1125,19 @@
         =============================================== -->
         <script>
             particles('squares', 'particles-1');
+        </script>
+        <script type="text/javascript">
+            /* curator-feed-default-feed-layout */
+            (function () {
+                var i, e, d = document,
+                    s = "script";
+                i = d.createElement("script");
+                i.async = 1;
+                i.charset = "UTF-8";
+                i.src = "https://cdn.curator.io/published/884bd1f6-b2f2-4af4-921b-7913e375f1bb.js";
+                e = d.getElementsByTagName(s)[0];
+                e.parentNode.insertBefore(i, e);
+            })();
         </script>
 
     </body>
