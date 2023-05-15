@@ -4685,6 +4685,10 @@ footer .copyright p {
         width: 100%;
     }
 
+    .slide-content {
+        display: none;
+    }
+
     /* #endregion Footer */
 }
 
